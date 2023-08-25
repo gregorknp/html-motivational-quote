@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;    /* CCS rule for the font family */
+    color: white;                   /* By default text is black, we need to change it to white */
+    text-align: center;               /* Text centered in the div*/   
+    text-transform: uppercase;        /* Text transformed to uppercase regardless the original case */  
+}
+
+img {
+    border: 5px white solid;
+    width: 100%;                    /* Being inside a div tag, the image takes the width of the div tag */
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+#container {                        
+    width: 50%;                     /* With a width of 50% of the screen and a lef margin of 25%, the content in the div will be centered */
+    margin-left: 25%;
+    margin-top: 100px;              /* Just a random top margin to separate the content of the div from the top of the screen */
+}
